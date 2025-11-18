@@ -1,0 +1,9 @@
+curl -X POST http://localhost:3000/tasks -H "Content-type: application/json" -d '{"title": "New video"}'
+
+curl -X POST http://localhost:3000/tasks -H "Content-type: application/json" -d '{"title": "bim bim bam bam"}'
+
+curl -X POST http://localhost:3000/tasks -H "Content-type: application/json" -d '{"title": "New audio"}'
+
+curl -X PUT http://localhost:3000/tasks/ -H "Content-Type: application/json" -d '{"id": 1, "title": "New video", "completed": true}'
+
+curl http://localhost:3000/tasks    
